@@ -4,16 +4,9 @@
 
 This package adds a ``C-c C-g`` shortcut which allows to setup ``log4cl's`` log levels
 from Emacs. You will be able to set different levels for packages, files and function
-definitions::
+definitions:
 
-  410 UU- -[log4sly]core.lisp                           96% Lisp LY company yas +            [sly sbcl/log4sly/-/-]
-  Current levels:      (set/inherited)
-  
-        [R] Root logger          - INFO          [P] Package LOG4SLY - INFO
-        [F] File       core.lisp - INFO
-  
-  Choose logger: [rpf] ([q]:quit [h]:help)?
-
+.. image:: docs/log4sly-log-levels.png
 
 Installation
 ============
