@@ -511,7 +511,8 @@ log4sly-xxx-logger variables with returned info."
   (save-excursion
     (when (sly-connected-p)
       (let ((pkg (sly-current-package))
-            (file (buffer-file-name))
+            (file (sly-to-lisp-filename
+                   (buffer-file-name)))
             (current-defun (ignore-errors
                              (funcall (or log4sly-current-defun-function
                                           'log4sly-lisp-current-defun)))))
