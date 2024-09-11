@@ -21,9 +21,18 @@ client to use it as a source for packages:
 
 Next, download and setup ``log4sly``.
 
+.. code:: common-lisp
+   (ql:quickload :log4sly)
+
+
+.. code:: common-lisp
+
+   (log4sly:install)
+
+the output should look like this
 .. code:: common-lisp-repl
 
-   CL-USER> (ql:quickload :log4cl)
+   CL-USER> (ql:quickload :log4sly)
    CL-USER> (log4sly:install)
    Wrote ~/projects/lisp/test-log4sly/.qlot/log4sly-setup.el
    
